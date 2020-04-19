@@ -1,2 +1,2 @@
-# Gobarber-Typescript-Backend
-Back-end desenvolvido nas aulas do Bootcamp GoStack para Barbearia 
+# Gobarber Backend
+**Back-end desenvolvido nas aulas do Bootcamp GoStack para barbearia com NodeJS e Typescript.**
