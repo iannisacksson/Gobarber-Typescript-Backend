@@ -47,3 +47,23 @@ _ou_
 ```
 $ npm run dev:server
 ```
+
+## Rotas
+
+[A URL para testar se está em execução o back-end é:](http://localhost:3333/).
+
+### Rota para se cadastrar na aplicação.
+
+- [Rota do tipo **POST** para cadastrato do cliente ou provedor de serviço](http://localhost:3333/users).
+
+- [Rota do tipo **PATCH** para atualizar o avatar do cliente ou provedor de serviço](http://localhost:3333/users/avatar).
+
+### Rota para criar uma sessão
+
+- [Rota do tipo **POST** para se autenticar na aplicação passando o e-mail e a senha cadastros na aplicação](http://localhost:3333/sessions).
+
+### Rota para agendamentos
+
+- [Rota do tipo **POST** para realizar um agendamento](http://localhost:3333/appointments).
+
+- [Rota do tipo **GET** para listar todos os agendamentos](http://localhost:3333/appointments).
