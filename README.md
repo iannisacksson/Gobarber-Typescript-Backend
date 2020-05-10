@@ -16,10 +16,34 @@ Para executar este projeto em desenvolvimento, você precisará ter um ambiente 
 
 #### Clonando o Repositório
 
-# Markdown
-
 ```
 $ git clone https://github.com/iannisacksson/Gobarber-backend.git
 
 $ cd GoBarber-backend
+```
+
+#### Instalando dependências
+
+```
+$ yarn
+```
+
+_ou_
+
+```
+$ npm install
+```
+
+#### Executando o projeto na máquina
+
+Com todas as dependências instaladas, o banco de dados em execução e o ambiente configurado corretamente, agora você pode executar o back-end:
+
+```
+$ yarn dev:server
+```
+
+_ou_
+
+```
+$ npm run dev:server
 ```
