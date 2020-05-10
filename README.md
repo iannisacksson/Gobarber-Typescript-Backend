@@ -4,7 +4,7 @@ Back-end desenvolvido nas aulas do Bootcamp GoStack para barbearia com NodeJS, T
 
 Este Back-end são dos projetos [GoBarber Web](https://github.com/iannisacksson/GoBarber-Frontend) e [GoBarber Mobile](https://github.com/iannisacksson/GoBarber-mobile).
 
-O principal objetivo desta API é realizar cadastro de usuários e provedores de serviços e realizar agendamentos.
+O principal objetivo desta API é realizar cadastro de usuários, de provedores de serviços e realizar agendamentos.
 
 ## Começando
 
