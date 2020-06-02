@@ -4,7 +4,7 @@ import ListProviderAppointmentsServices from './ListProviderAppointmentsServices
 let fakeAppointmentsRepostitory: FakeAppointmentsRepository;
 let listProviderAppointments: ListProviderAppointmentsServices;
 
-describe('ListProvidersDayAvalabitiliry', () => {
+describe('ListProviderAppointmentsServices', () => {
   beforeEach(() => {
     fakeAppointmentsRepostitory = new FakeAppointmentsRepository();
     listProviderAppointments = new ListProviderAppointmentsServices(

@@ -11,7 +11,7 @@ interface IRequest {
 }
 
 @injectable()
-class ListPorividerAppointmentsServices {
+class ListProviderAppointmentsServices {
   constructor(
     @inject('AppointmentsRepository')
     private appointmentsRepository: IAppointmentsRepository,
@@ -36,4 +36,4 @@ class ListPorividerAppointmentsServices {
   }
 }
 
-export default ListPorividerAppointmentsServices;
+export default ListProviderAppointmentsServices;
