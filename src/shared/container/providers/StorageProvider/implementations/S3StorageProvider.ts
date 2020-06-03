@@ -16,13 +16,13 @@ export default class DiskStorageProvider implements IStorageProvider {
   public async saveFile(file: string): Promise<string> {
     const originalPath = path.resolve(uploadConfig.tmpFolder, file);
 
-    const fileContent = fs.promises.readFile(originalPath, {
-      encoding: 'uft-8',
+    const fileContent = await fs.promises.readFile(originalPath, {
+      encoding: 'utf-8',
     });
 
     await this.client
       .putObject({
-        Bucket: 'app-gobarber-upload',
+        Bucket: 'app-gobarber-put',
         Key: file,
         ACL: 'public-read',
         Body: fileContent,
